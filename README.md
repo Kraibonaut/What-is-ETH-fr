@@ -1,52 +1,52 @@
 # Level 3 - What is ETH
 
 ## 1. Theory
-### What is Ethereum
-Ethereum is a decentralized blockchain that supports smart contracts. Unlike Bitcoin, which only supports the transfer of the Bitcoin token around the network, Ethereum is more general purpose. 
+### Qu'est-ce que l'Ethereum ?
+Ethereum est une blockchain décentralisée qui prend en charge les contrats intelligents. Contrairement au bitcoin, qui ne prend en charge que le transfert du jeton bitcoin sur le réseau, Ethereum a un usage plus général. 
 
-Developers can build dApps, or decentralized applications, which can be executed on the Ethereum network on the Ethereum Virtual Machine (EVM). The global state of Ethereum therefore consists of more than just the balance of every account, but also the state of each dApp.
+Les développeurs peuvent créer des dApps, ou applications décentralisées, qui peuvent être exécutées sur le réseau Ethereum sur la machine virtuelle Ethereum (EVM). L'état global d'Ethereum est donc constitué non seulement du solde de chaque compte, mais aussi de l'état de chaque dApp.
 
-dApps are built on Ethereum using it's programming language, Solidity. You can write smart contracts using Solidity and deploy the smart contracts to the Ethereum Network.
+Les dApps sont construites sur Ethereum à l'aide de son langage de programmation, Solidity. Vous pouvez écrire des contrats intelligents en utilisant Solidity et déployer les contrats intelligents sur le réseau Ethereum.
 
 <Quiz questionId="66d1c830-7e85-4d52-9686-045f96d5026a" />
 
-It maintains consensus across all the computers in it's network with Proof of Work (PoW). In the near future, with the Serenity patch, Ethereum will be moving to a Proof of Stake (PoS) mechanism.
+Il maintient le consensus entre tous les ordinateurs de son réseau grâce au mécanisme Proof of Work (PoW). Dans un avenir proche, avec le patch Serenity, Ethereum passera à un mécanisme de Proof of Stake (PoS).
 
 <Quiz questionId="d04384a8-ea61-4c59-b02c-5637802a8f6e" />
 
 <Quiz questionId="a95e6c2d-e868-421b-8bea-57a17cb4b0fd" />
 
 ### Ethereum Basics
-#### History
-Ethereum was originally proposed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), a young programmer and co-founder of the Bitcoin Magazine. He was a curious student, and a gifted programmer even at a young age. He used to play World of Warcraft from 2007-2010, however, when Blizzard decided to remove the damage component from his favorite warlock's Siphon Life skill, Buterin was very upset and quit the game altogether.
+#### Histoire
+Ethereum a été proposé à l'origine par  [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), un jeune programmeur et cofondateur du magazine Bitcoin. C'était un étudiant curieux, et un programmeur doué même à un jeune âge. Il a joué à World of Warcraft de 2007 à 2010, mais lorsque Blizzard a décidé de supprimer les dégâts de la compétence Siphon Life de son warlock préféré, Buterin a été très contrarié et a quitté le jeu.
 
-In 2011, he came across Bitcoin, and got quite fascinated by the idea. He wanted to formally contribute, so he started writing articles about it in exchange for a few Bitcoin per article. In late 2011, he co-founded the Bitcoin Magazine and went full time into crypto. He traveled across the world looking at variuos crypto projects, and realized it is possible to generalize the functionality of most of these projects by integrating a Turing-complete general-purpose programming language into a blockchain. 
+En 2011, il a découvert le bitcoin et a été fasciné par l'idée. Il voulait y contribuer officiellement et a donc commencé à écrire des articles sur le sujet en échange de quelques bitcoins par article. Fin 2011, il a cofondé le Bitcoin Magazine et s'est lancé à plein temps dans la crypto. Il a voyagé dans le monde entier pour examiner divers projets de crypto-monnaie et a réalisé qu'il était possible de généraliser la fonctionnalité de la plupart de ces projets en intégrant un langage de programmation polyvalent complet de Turing dans une blockchain. 
 
-Buterin tried to convince the Bitcoin core developers, among devs from other projects, that the blockchain technology can have much wider impact than just monetary exchanges and blockchain needed a general purpose programming language to go with it. However, after being refused by the existing projects, he decided to do it himself.He went ahead and proposed the development of a new blockchain platform with a Turing-complete programming language (Solidity), that went on to be what we know as Ethereum.
+Buterin a essayé de convaincre les développeurs du noyau du Bitcoin, parmi les développeurs d'autres projets, que la technologie de la blockchain peut avoir un impact beaucoup plus large que les seuls échanges monétaires et que la blockchain a besoin d'un langage de programmation général pour l'accompagner. Après avoir essuyé le refus des projets existants, il a décidé de le faire lui-même et a proposé le développement d'une nouvelle plateforme blockchain avec un langage de programmation complet de Turing (Solidity), qui est devenu ce que nous connaissons sous le nom d'Ethereum.
 
-In 2014, the project was publicly announced, and the core team consisted of Vitalik Buterin, Mihai Alise, Anthony Di Iorio, Charles Hoskinson, Joe Lubin and Gavin Wood. A few months later, the team held an Initial Coin Offering (ICO) for the Ether token to fund the development. The team raised over 31,000 BTC, which at the time was around $18 million USD. They then established the Ethereum Foundation, a non-profit based in Switzerland which was tasked with seeing Ethereum's open source development early on.
+En 2014, le projet a été annoncé publiquement et l'équipe centrale était composée de Vitalik Buterin, Mihai Alise, Anthony Di Iorio, Charles Hoskinson, Joe Lubin et Gavin Wood. Quelques mois plus tard, l'équipe a organisé une offre initiale de pièces de monnaie (ICO) pour le jeton Ether afin de financer le développement. L'équipe a levé plus de 31 000 BTC, ce qui représentait à l'époque environ 18 millions de dollars américains. Ils ont ensuite créé la Fondation Ethereum, un organisme à but non lucratif basé en Suisse, chargé de veiller au développement open source d'Ethereum dès le début.
 
 #### What is Ether
-Ethereum has a native currency called "Ether", or "Eth". This token is required to pay transaction fees for transactions done on the Ethereum network.
+Ethereum possède une monnaie native appelée "Ether", ou "Eth". Ce jeton est nécessaire pour payer les frais de transaction des opérations effectuées sur le réseau Ethereum.
 
 <Quiz questionId="24de1c8f-3b95-4c5f-9d88-957f29767dad" />
 
 #### What are Smart Contracts
-Smart contracts are small computer programs that are replicated and processed on all the computers on the Ethereum network without a central coordinator. Smart Contracts allow you to program contracts that can be automatically enforced by computer code. 
+Les contrats intelligents sont de petits programmes informatiques qui sont répliqués et traités sur tous les ordinateurs du réseau Ethereum sans coordinateur central. Les contrats intelligents vous permettent de programmer des contrats qui peuvent être automatiquement appliqués par le code informatique. 
 
 <Quiz questionId="439f3f3b-6d6f-4e2c-99b7-0eb78dc9fe44" />
 
-The general-purpose nature of Ethereum allows for any number of possible applications to be built on top of it, which all inherit the security and decentralization benefits that come from running on the Ethereum blockchain.
+La nature polyvalente d'Ethereum permet de construire un nombre illimité d'applications, qui héritent toutes des avantages de la sécurité et de la décentralisation découlant de l'utilisation de la blockchain Ethereum.
 
 #### ERC20 Tokens
-In addition to Ether, people can create and use their own currencies on Ethereum. The most common form of currency is ERC20 tokens. ERC20 Tokens are smart contracts that fit a specific standard. Developers can extend beyond the standard, but should meet the minimum requirements when making their own token. The standardization allows for digital wallets to easily support all types of tokens, without needing specialized code for each token created.
+En plus de l'Ether, les gens peuvent créer et utiliser leurs propres monnaies sur Ethereum. La forme de monnaie la plus courante est le jeton ERC20. Les jetons ERC20 sont des contrats intelligents qui répondent à une norme spécifique. Les développeurs peuvent aller au-delà de cette norme, mais ils doivent respecter les exigences minimales lorsqu'ils créent leur propre jeton. La normalisation permet aux portefeuilles numériques de prendre facilement en charge tous les types de jetons, sans avoir besoin d'un code spécialisé pour chaque jeton créé.
 
 <Quiz questionId="d8f6f581-7712-4aa6-9339-222f4461655c" />
 
 #### ERC721 and ERC1155 Tokens
-These are what are also called NFTs. These two standards, similar to ERC20, provide a base line for what requirements should be met when creating NFTs. They provide similar benefits as well, allowing wallets and NFT marketplaces to instantly be compatible with all NFT collections as they all follow one of these two standards.
+C'est ce que l'on appelle également les NFT. Ces deux normes, similaires à l'ERC20, fournissent une ligne de base pour les exigences à respecter lors de la création de NFT. Elles offrent également des avantages similaires, permettant aux portefeuilles et aux marchés de NFT d'être instantanément compatibles avec toutes les collections de NFT, car elles suivent toutes l'une de ces deux normes.
 
-and many more...
+et bien plus encore...
 
 ### Required Readings
   - [https://bitsonblocks.net/2016/10/02/gentle-introduction-ethereum/](https://bitsonblocks.net/2016/10/02/gentle-introduction-ethereum/)
